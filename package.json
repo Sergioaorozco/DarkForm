@@ -1,0 +1,24 @@
+{
+  "name": "darkform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergioaorozco/DarkForm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergioaorozco/DarkForm/issues"
+  },
+  "homepage": "https://github.com/Sergioaorozco/DarkForm#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  }
+}

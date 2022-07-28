@@ -1,7 +1,8 @@
-let handleCheck = document.getElementById('switchTheme')
+const handleCheck = document.getElementById('switchTheme')
+
 handleCheck.addEventListener('change', function () {
-  let bodyElement = document.querySelector('body')
-  let colorMode = document.getElementById('textValue')
+  const bodyElement = document.querySelector('body')
+  const colorMode = document.getElementById('textValue')
   if (this.checked) {
     colorMode.innerHTML = 'Light Color'
     bodyElement.classList.remove('isLightColor')
